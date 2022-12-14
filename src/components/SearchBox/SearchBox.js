@@ -32,12 +32,12 @@ const SearchBox = ({ setdata }) => {
         <div className="search-box">
             <form className="search-box__form" onSubmit={searchBoxSubmitHandler}>
                 <label className="search-box__form-label">
-                    Искать фильм по названию:
+                    Please enter the film name:
                     <input
                         value={state.searchLine}
                         type="text"
                         className="search-box__form-input"
-                        placeholder="Например, Shawshank Redemption"
+                        placeholder="Search"
                         onChange={searchLineChangeHandler}
                     />
                 </label>
@@ -47,7 +47,7 @@ const SearchBox = ({ setdata }) => {
                     disabled={!searchLine}
 
                 >
-                    Искать
+                    Search
                 </button>
             </form>
         </div>

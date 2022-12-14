@@ -24,7 +24,7 @@ const Movies = () => {
                         <li className="movies__item" key={movie.imdbID}>
                             <MovieItem {...movie} />
                         </li>
-                    )) : error ? <h1>error</h1> : <>Please enter name of the film</>}
+                    )) : error ? <h1>error</h1> : <></>}
                 </ul>
 
             }
