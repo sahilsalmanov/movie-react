@@ -18,3 +18,14 @@
 .main-page__favorites {
     width: 35%;   
 }
+
+
+@media screen and (max-width: 430px) {
+    
+.main-page__content {
+    display: block;
+}
+.main-page__favorites {
+    margin-left: 40px;
+}
+}
